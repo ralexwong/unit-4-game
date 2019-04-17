@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Unit 4 Game</title>
+
+
+<!-- My CSS-->
+
+<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<!-- Added link to the jQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Javascript link -->
+<script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body background="assets/images/background.jpg">
+
+<div class="container">
+    <div class="row" id="header">
+        <div class="col">
+            ElementsCollector!
+        </div>
+    </div>
+    <div class="row" id="instructionbox">
+        <div class="col">
+            <p>
+            You will be given a random number at the start of the game.
+            <br>
+            <br>
+            There are four elemtns below. By clicking on an element you will add a specific amount of points to your total score.
+            <br>
+            <br>
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. 
+            <br>
+            <br>
+            The value of each element is hidden from you until you clock on it.
+            <br>
+            <br>
+            Each time when the game starts, the game will change the values of each element.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="randomnumberbox">
+            <span id="randomnumber"></span>
+        </div>
+        <div class="col" id="recordbox">
+            Wins: <span id="wins"></span>
+            <br>
+            <br>
+            Losses: <span id="losses"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="elementbox">
+            <img id="wind" src="assets/images/wind.jpg" alt="wind">
+            <img id="earth" src="assets/images/earth.jpg" alt="earth">
+            <img id="water" src="assets/images/water.jpg" alt="water">
+            <img id="fire" src="assets/images/fire.jpg" alt="fire">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="thinbox">
+            Your total score is:
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="totalscorebox">
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>

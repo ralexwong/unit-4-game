@@ -1,0 +1,64 @@
+body {
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:18px;
+}
+
+.container {
+    margin: 0;
+}
+
+.row {
+    margin: 10px 10px 10px 0px;
+}
+
+#header {
+    background: darkorange;
+    font-size: 50px;
+    max-width: 450px;
+    text-align: center;
+}
+
+#instructionbox {
+    background: green;
+    max-width: 700px;
+}
+
+#randomnumberbox {
+    background: red;
+    font-size:50px;
+    height: 100px;
+    max-width: 200px;
+    margin-right: 15px;
+}
+
+#recordbox {
+    background: blue;
+    max-width:150px;
+}
+
+#elementbox {
+    padding: 0;
+    width:100px;
+    height:100px;
+}
+
+img {
+    background: white;
+    width:100px; 
+    height:100px;
+    margin-right: 20px;
+}
+
+#thinbox {
+    background: darkolivegreen;
+    max-width:300px;
+}
+
+#totalscorebox {
+    background: darkolivegreen;
+    font-size: 50px;
+    height:150px;
+    max-width: 300px;
+
+}
